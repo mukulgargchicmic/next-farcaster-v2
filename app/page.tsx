@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import FrameContent from './components/FrameContent';
 
 export async function generateMetadata(): Promise<Metadata> {
-  const link = `https://roaring-sopapillas-b87c79.netlify.app`
+  const link = `https://next-farcaster-v2.vercel.app`
   const imageUrl = `${link}/img/helloworld.png`;
   const frameUrl = link;
   const frameEmbed = {
